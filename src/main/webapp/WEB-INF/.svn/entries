@@ -1,0 +1,40 @@
+8
+
+dir
+2
+https://10.1.14.191/svn/hello/Spring_maven/src/main/webapp/WEB-INF
+https://10.1.14.191/svn/hello
+
+
+
+2019-08-14T12:03:36.562051Z
+2
+zhangsan
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+dd172703-4271-bf41-b5ca-0e48337f706a
+
+web.xml
+file
+
+
+
+
+2019-08-14T11:12:29.043000Z
+39f41c029724becd4113f240a724e226
+2019-08-14T12:03:36.562051Z
+2
+zhangsan
+

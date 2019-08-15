@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- com.github.pagehelper为PageHelper类所在包名 -->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+        </plugin>
+    </plugins>
+
+    <!-- 引入实体映射文件 -->
+    <mappers>
+        <!-- <mapper resource="gl/pojo/Account.xml" />
+        <mapper resource="gl/pojo/User.xml" />
+        <mapper resource="gl/pojo/Book.xml" /> -->
+        <package name="gl.pojo"/>
+    </mappers>
+
+</configuration>
