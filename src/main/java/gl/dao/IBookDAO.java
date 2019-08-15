@@ -5,8 +5,5 @@ import gl.pojo.Book;
 public interface IBookDAO {
 	public Book findBookByBookid(Integer bookid);
 	
-	public Book find();
-	
-	public Book find2();
-
+	public Book show();
 }
