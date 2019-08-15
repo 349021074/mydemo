@@ -6,4 +6,7 @@ public interface IBookDAO {
 	public Book findBookByBookid(Integer bookid);
 	
 	public Book find();
+	
+	public Book find2();
+
 }
